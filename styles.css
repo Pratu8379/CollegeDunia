@@ -1,0 +1,101 @@
+body{
+  padding: 0;
+  margin-left: 100px;
+  
+}
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline-block;
+    width: 500px;
+    height: 360px;
+    /* grid-template-columns: 300px 100px 100px; */
+    grid-gap: 3rem;
+    border-radius: 5px;
+    margin-left: 50px;
+     border: 5px solid #b3abab; 
+    margin: 30px;
+
+  }
+  .college{
+    height: 350px;
+    margin: 1px;
+    padding: 5px;
+    background: white;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    list-style: none;
+    
+  }
+  
+  .college-img {
+    width: 469px;
+    height: 150px;
+  }
+  .college-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    text-align: justify;
+  }
+  p {
+    font-size: 14px;
+    /* border: 3px solid red; */
+    color:black;
+  }
+  .img-flex1{
+    display: flex;
+    padding: 34px;
+    
+  }
+  .flex1{
+    display: flex;
+    /* border: 2px solid red; */
+  }
+  .flex1 .heading2{
+    font-weight: bold;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+  }
+  .flex2{
+    display: flex;
+   
+  }
+
+  .flex2 .first1{
+        margin: 14px;
+        text-decoration-line: line-through; 
+        font-weight: 0.7rem;
+  }
+  .flex2 .first2{
+    /* border: 2px solid red; */
+    background-color: red;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px 30px 3px 45px;
+  }
+  
+
+
+
+#div8{
+    margin-left: 140px;
+}
+
+
+.container2{
+    border: 2px solid rgb(89, 0, 255);  
+    display: flex;
+    height: 38.6px;
+    width: 1300px;
+}
+
+.container2 div{
+    border: 2px solid rgb(29, 185, 23); 
+    margin: 23px 34px;
+}
